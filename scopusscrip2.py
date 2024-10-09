@@ -8,7 +8,7 @@ API_KEY_SCOPUS = "a0a6aa8a0b2b39d9fbca3ab31f59d9b2"
 # Parámetros de búsqueda
 QUERY = "computational thinking"
 NUMERO_RESULTADOS_POR_PAGINA = 25  # Máximo permitido por solicitud en Scopus es 25
-TOTAL_RESULTADOS_DESEADOS = 1000  # Ajusta este número si necesitas más o menos
+TOTAL_RESULTADOS_DESEADOS = 1000 # Ajusta este número si necesitas más o menos
 ARCHIVO_CSV = "articulos_scopus_ordenados.csv"
 
 def buscar_articulos_scopus():
